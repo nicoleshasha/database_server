@@ -4,7 +4,7 @@ feature 'set' do
   context 'add key value pair' do
     scenario 'add data' do
     visit '/set'
-    expect(page).to have_content 'Hello world'
+    expect(page).to have_content 'Database server'
     end
   end
 end
